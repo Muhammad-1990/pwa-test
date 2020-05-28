@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="theme-color" content="#1A1AFF"/>
+		<meta name="Description" content="A test of my first PWA.">
+		<title>Progressive Web App</title>
+		<link rel="icon" sizes="192x192" href="Logo-192x192.png" type="image/png"/>
+		
+		<!-- For generating app manifest: https://tomitm.github.io/appmanifest/ -->
+		<link rel="manifest" href="manifest.json">
+		
+
+		
+	</head>
+	<body>
+		<div id="main">
+			Loading...
+		</div>
+
+		<script>
+		window.onload = () => {
+    'use strict';
+
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker
+            .register('./sw.js');
+    }
+}
+</script>
+		<noscript>
+			no javascript
+		  </noscript>
+	</body>
+</html>
