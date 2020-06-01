@@ -4,7 +4,7 @@
   "name": "Hello World",
   "short_name": "Hello",
   "description": "A hello world test app.",
-  "start_url": "/?utm_source=pwa_install",
+  "start_url": "/index.html?utm_source=pwa_install",
   "scope": "/",
   "display": "standalone",
   "lang": "en-US",
