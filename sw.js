@@ -2,6 +2,8 @@ var cacheName = 'hello-pwa';
 var filesToCache = [
     '/',
     '/index.html',
+    '/maifest.json',
+    '/favicon.ico',
     '/css/style.css',
 ];
 
