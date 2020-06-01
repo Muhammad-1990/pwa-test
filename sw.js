@@ -6,7 +6,8 @@ var filesToCache = [
     '/favicon.ico',
     '/css/style.css',
     '/images/icon/manifest-icon-192.png',
-    '/images/icon/manifest-icon-512.png'
+    '/images/icon/manifest-icon-512.png',
+    '/fonts/space age.otf'
 ];
 
 /* Start the service worker and cache all of the app's content */
