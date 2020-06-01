@@ -43,7 +43,7 @@
     <link rel="apple-touch-startup-image" href="/images/splash/apple-splash-1136-640.jpg" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
 
     <title>Hello World</title>
-    
+
     <style>
         html {
             height: 100%;
@@ -92,7 +92,7 @@
             margin-left: auto;
             margin-right: auto;
             border-radius: 50%;
-            /*background-image: url(/images/icon/manifest-icon-192.png);*/
+            /* background-image: url(/images/icon/manifest-icon-192.png); */
             background-size: 192px 192px;
             background-repeat: no-repeat;
             background-position: center;
@@ -238,10 +238,23 @@
 </head>
 
 <body>
-   <!--  <div class="splash">
-        <div class="splashIcon"></div>
+    <div class="splash">
+        <div class="splashIcon">
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.0" width="195.000000pt" height="272.000000pt" viewBox="0 0 195.000000 272.000000" preserveAspectRatio="xMidYMid meet">
+                    <g transform="translate(0.000000,272.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none">
+                        <path d="M595 2328 c-441 -436 -485 -494 -548 -723 -18 -67 -22 -106 -22 -240 0 -138 3 -171 23 -238 31 -103 71 -192 123 -269 42 -64 409 -441 662 -680 l138 -131 40 39 39 40 -358 351 c-368 360 -433 435 -488 560 -105 237 -91 508 38 743 36 66 84 117 381 413 187 186 344 336 348 335 22 -8 628 -610 671 -667 62 -82 112 -185 139 -287 25 -95 30 -277 10 -369 -33 -149 -114 -301 -222 -410 l-49 -51 40 -39 40 -39 56 54 c107 106 195 260 240 425 29 105 27 350 -3 460 -63 230 -108 289 -549 724 -202 198 -370 361 -375 361 -4 0 -173 -163 -374 -362z"
+                        />
+                        <path d="M669 2087 c-322 -318 -346 -349 -395 -502 -66 -207 -30 -444 95 -621 30 -42 189 -206 406 -418 l356 -349 40 40 40 39 -360 356 c-378 374 -421 424 -463 546 -20 57 -23 87 -23 197 1 109 4 140 23 189 44 120 79 163 330 411 134 132 247 240 252 240 4 0 113 -104 242 -230 315 -308 355 -372 365 -585 9 -172 -33 -293 -148 -429 l-61 -73 39 -40 40 -39 52 57 c75 82 117 147 150 234 80 209 62 430 -51 625 -32 57 -96 125 -332 357 -160 158 -293 288 -296 288 -3 0 -138 -132 -301 -293z"
+                        />
+                        <path d="M753 1858 c-120 -121 -220 -230 -231 -253 -73 -146 -73 -324 0 -470 19 -38 645 -678 731 -747 l38 -31 39 38 40 39 -360 353 c-322 317 -363 361 -392 421 -30 61 -33 75 -33 157 1 151 16 178 216 380 l168 170 156 -155 c86 -85 166 -173 179 -195 90 -153 68 -331 -58 -462 l-40 -43 39 -40 39 -40 49 47 c149 147 183 381 85 578 -17 34 -432 465 -448 465 -3 0 -101 -96 -217 -212z"
+                        />
+                        <path d="M848 1643 c-64 -65 -124 -134 -133 -153 -26 -51 -31 -147 -11 -211 16 -51 39 -75 379 -411 l362 -357 40 40 40 40 -352 347 c-309 305 -353 352 -363 390 -18 71 0 114 86 202 l73 75 61 -60 c83 -81 102 -115 102 -176 0 -50 -14 -82 -58 -130 l-24 -25 41 -40 41 -39 43 48 c56 61 79 129 73 211 -3 34 -13 77 -23 96 -16 32 -241 270 -255 270 -3 0 -58 -53 -122 -117z"
+                        />
+                    </g>
+                </svg>
+        </div>
     </div>
-    <header></header> -->
+    <!-- <header></header> -->
     <main>
         <div class="colorbox">
             <span class="pallete first"></span>
@@ -286,10 +299,9 @@
             </li>
         </ul>
     </nav>
-     <script>
+    <script>
         window.onload = () => {
             'use strict';
-
             if ('serviceWorker' in navigator) {
                 navigator.serviceWorker
                     .register('./sw.js');
