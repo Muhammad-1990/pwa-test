@@ -3,14 +3,7 @@ var filesToCache = [
     '/',
     '/index.html',
     '/css/style.css',
-    '/scripts/main.js',
-    '/images/tiles/aud.jpg',
-    '/images/tiles/cad.jpg',
-    '/images/tiles/chf_alt.jpg',
-    '/images/tiles/eur.jpg',
-    '/images/tiles/gbp.jpg',
-    '/images/tiles/jpy.jpg',
-    '/images/tiles/nzd.jpg',
+    '/scripts/main.js'
 ];
 
 /* Start the service worker and cache all of the app's content */
