@@ -286,7 +286,16 @@
             </li>
         </ul>
     </nav>
-    <script defer src="scripts/main.js"></script>
+     <script>
+        window.onload = () => {
+            'use strict';
+
+            if ('serviceWorker' in navigator) {
+                navigator.serviceWorker
+                    .register('./sw.js');
+            }
+        }
+    </script>
     <style>
         @font-face {
             font-family: "space-age";
