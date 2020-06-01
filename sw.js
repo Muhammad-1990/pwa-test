@@ -4,7 +4,6 @@ var filesToCache = [
     '/index.html',
     '/css/style.css',
     '/scripts/main.js',
-    '/manifest.json',
     '/images/icon/manifest-icon-192.png',
     '/favicon.ico',
 ];
